@@ -1,0 +1,90 @@
+/* Colors and fonts */
+body {
+  background-color: rgb(245, 245, 245);
+  color: rgb(50, 50, 50);
+  font-family: Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: rgb(30, 30, 30);
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+a {
+  color: rgb(52, 152, 219);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: rgb(22, 100, 160);
+}
+
+/* Container */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+/* Cards */
+.card-white {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.card-white:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Text center */
+.text-center {
+  text-align: center;
+}
+
+/* Image */
+.img-circle {
+  width: 150px;
+  border-radius: 50%;
+  margin: 20px 0px;
+}
+
+/* Button */
+.btn-blue {
+  color: white;
+  background-color: rgb(52, 152, 219);
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.btn-blue:hover {
+  background-color: rgb(22, 100, 160);
+  color: white;
+}
+
+/* List inline */
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 0px 20px;
+}
